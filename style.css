@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
+
+.container { width: 80%; margin: auto; text-align: center; padding: 40px 0; }
+
+header { background: #2c3e50; color: white; padding: 60px 0; }
+
+.banner { padding: 100px 20px; text-align: center; background: white; }
+
+.btn-principal {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+/* Botão Flutuante */
+.whatsapp-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    z-index: 999;
+}
