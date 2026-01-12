@@ -2,25 +2,33 @@
 
 body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
 
-.container { width: 80%; margin: auto; text-align: center; padding: 40px 0; }
+.container { width: 80%; margin: auto; text-align: center; }
 
-header { background: #2c3e50; color: white; padding: 60px 0; }
-
-.banner {
-    /* O NOME ABAIXO PRECISA SER IGUAL AO ARQUIVO NO GITHUB */
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('banner.jpg.png'); 
+/* AQUI ESTÁ A MUDANÇA: A FOTO AGORA É O FUNDO DO TOPO */
+header { 
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('banner.jpg.png'); 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    min-height: 450px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 20px;
     color: white; 
+    padding: 100px 0; /* Aumentei o espaço para a foto aparecer bem */
     text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+header p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+/* O BANNER AGORA FICA BRANCO E LIMPO EMBAIXO */
+.banner {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: green;
 }
 
 .btn-principal {
