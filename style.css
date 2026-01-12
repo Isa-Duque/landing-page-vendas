@@ -6,11 +6,12 @@ body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
 
 /* AQUI ESTÁ A MUDANÇA: A FOTO AGORA É O FUNDO DO TOPO */
 header { 
+    /* Usei o nome exato que aparece no seu GitHub: banner.jpg.png */
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('banner.jpg.png'); 
     background-size: cover;
     background-position: center;
     color: white; 
-    padding: 100px 0; /* Aumentei o espaço para a foto aparecer bem */
+    padding: 120px 0; /* Aumentei um pouco para a maquininha aparecer melhor */
     text-align: center;
 }
 
