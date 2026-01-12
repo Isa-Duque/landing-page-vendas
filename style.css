@@ -7,13 +7,15 @@ body { background-color: #f4f4f4; color: #333; line-height: 1.6; }
 header { background: #2c3e50; color: white; padding: 60px 0; }
 
 .banner {
-    background-image: url('bannerTon1.png'); /* <--- CONFIRME SE É .PNG OU .JPG */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('bannerTon1.png'); /* Adicionei uma camada escura para o texto aparecer melhor */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px; /* Garante uma altura mínima para a foto aparecer */
     padding: 100px 20px;
     color: white; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Adicionei isso para o texto não sumir no fundo */
-}
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 .btn-principal {
